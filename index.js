@@ -16,7 +16,7 @@ app.use(cookieParser())
 
 app.use("/api",router)
 
-const PORT = https://backendjs-61u3.onrender.com || process.env.PORT
+const PORT = 8080 || process.env.PORT
 
 
 connectDB().then(()=>{
