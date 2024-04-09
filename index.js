@@ -7,7 +7,7 @@ const router = require('./routes')
 
 
 const app = express()
-app.use(cors({
+app.use(cros({
     origin : process.env.FRONTEND_URL,
     credentials : true
 }))
